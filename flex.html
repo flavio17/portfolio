@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Display Flex</title>
+	<style type="text/css">
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			height: 100%;
+		}
+		.container {
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+
+			background: #069;
+		}
+		.header {
+			background: #ccc;
+			padding: 16px;
+		}
+		.main {
+			display: flex;
+			flex: 1;
+		}
+		.sidebar {
+			padding: 16px;
+			background: gold;
+			width: 100px;
+		}
+		.content {
+			background: tomato;
+			padding: 16px;
+			flex: 1;
+		}
+		.footer {
+			background: #ccc;
+			padding: 16px;
+		}
+		
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		Menu do topo!
+	</div>
+	<div class="main">
+		<div class="sidebar">
+			menu
+		</div>
+		<div class="content">
+			conteúdo
+		</div>
+	</div>
+	<div class="footer">
+		red
+	</div>
+</div>
+</body>
+</html>

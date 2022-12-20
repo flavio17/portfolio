@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.hero {
+	width: 100%;
+	height: 100vh;
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	background-position: center;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-right: 8%;
+	padding-left: 8%;
+}
+.logo {
+	font-size: 35px;
+	color: #fff;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span {
+	color: #f9004d;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	text-transform: capitalize;
+
+}
+nav ul li a:hover {
+	color: #f9004d;
+	transition: 0.5s;
+}
+.btn {
+	cursor: pointer;
+	background-color: #f9004d;
+	color: #fff;
+	border:  2px solid transparent;
+	border-radius: 40px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: transform 0.4s;
+}
+.btn:hover {
+	transform: scale(1.2);
+}
+.content {
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+}
+.content h1 {
+	color: #fff;
+	margin: 20px 0 20px;
+	font-size: 75px;
+}
+.content h3 {
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+.content h4 {
+	color: #fcfcfc;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.newsletter form {
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newsletter form input:first-child {
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #f9004d;
+	outline: none;
+	border-radius: 30px;
+}
+.newsletter form input:last-child {
+	position: absolute;
+	display: inline-block;
+	border: none;
+	outline: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #f9004d;
+	color: #fff;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px;
+	cursor: pointer;
+}
+/* about */
+.about {
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img {
+	height: auto;
+	width: 430px;
+}
+.about-text {
+	width: 550px;
+} 
+.about-text h2 {
+	color: #fff;
+	margin-bottom: 20px;
+	font-size: 75px;
+	text-transform: capitalize;
+}
+.about-text h5 {
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text	p {
+	color: #fcfcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.main {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
